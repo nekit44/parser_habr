@@ -1,0 +1,7 @@
+.idea
+out.json
+
+# Mac DS_Store Files
+.DS_Store
+# windows thumbnail cache
+Thumbs.db
