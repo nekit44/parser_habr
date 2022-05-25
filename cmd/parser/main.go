@@ -13,6 +13,9 @@ https://habr.com/ru/post/493088/
 https://github.com/noorsoft-mobile/go-cinema-parser/blob/master/main.go
 https://github.com/geziyor/geziyor
 
+//DONE Узнать что такое амперсант / звездочка
+https://habr.com/ru/post/339192/
+
 */
 
 func main() {
@@ -26,7 +29,6 @@ func main() {
 }
 
 func handlerParserToJson() {
-	//TODO Узнать что такое амперсант
 	geziyor.NewGeziyor(&geziyor.Options{
 		StartURLs: []string{"https://habr.com/ru/all/"},
 		ParseFunc: parserHabr,
@@ -36,7 +38,6 @@ func handlerParserToJson() {
 	}).Start()
 }
 
-//TODO Узнать что такое звездочка
 func parserHabr(g *geziyor.Geziyor, r *client.Response) {
 	//tm-article-snippet__title-link
 	r.HTMLDoc.Find(".tm-article-snippet__title-link").Each(func(i int, selection *goquery.Selection) {
