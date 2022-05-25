@@ -18,11 +18,11 @@ https://github.com/geziyor/geziyor
 func main() {
 	handlerParserToJson()
 	//TODO разобраться как разделять на модули
-	//TODO Подключить к базе данных
+	//TODO Подключить к базе данных + laravel + логирование
 	//TODO Подключить к боту
 	//TODO Сделать меню выбора тегов и фильтрации
 	//TODO разобраться как разместить на сервере
-
+	//TODO CI/CD github
 }
 
 func handlerParserToJson() {
