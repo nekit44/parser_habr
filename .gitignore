@@ -6,3 +6,5 @@ out.json
 # windows thumbnail cache
 Thumbs.db
 .env
+
+temp.txt
