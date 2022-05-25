@@ -5,3 +5,4 @@ out.json
 .DS_Store
 # windows thumbnail cache
 Thumbs.db
+.env
